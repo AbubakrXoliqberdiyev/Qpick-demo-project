@@ -63,7 +63,7 @@
     <header></header>
     <main>
         <section>
-            <div class="container airpod_main">
+            <div class="container airpod_main wow bounceInRight" data-wow-duration="2s"">
                 <div class="airpod_card">
                     <div class="card_img">
                         <img src="./img/Image (2).png" alt="">
@@ -118,10 +118,34 @@
                         <p class="card_rate_num">4.7</p>
                     </div>    
                 </div>
-
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container footer_main">
+            <h1 class="logo">QPICK</h1>
+            <ul class="footer_links">
+                <li>Избранное</li>
+                <li>Корзина</li>
+                <li>Контакты</li>
+            </ul>
+    
+           <div>
+            <div class="footer_lang_main">
+                <p class="footer_lang_title">Условия сервиса</p>
+                <div class="footer_lang">
+                    <img src="./icons/world.svg" alt="">
+                    <a class="footer_lang_item" href="#">Каз</a>
+                    <a class="footer_lang_item" href="#">Рус</a>
+                    <a class="footer_lang_item" href="#">Eng</a>
+                </div>
+            </div>
+    
+            <div>
+                <img src="./icons/footer_social.svg" alt="">
+            </div>
+           </div>
+        </div>
+    </footer>
     <script src="./js/wow.min.js"></script>
     <script>
         new WOW().init();
